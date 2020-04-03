@@ -1,4 +1,5 @@
 Meu primeiro detector de ângulos em imagens de drône de plantação usando conceito simples de filtros sobel
+<img src="img3.jpg"/>
 _____________________________________________________________________
 # Detecção do angulo
 Ao invés de fazer logo de início um detector de linhas e angulos deferentes em uma unica imagem ou usar metodos ja existentes como a TRANSFORMADA DE HOUGH, resolvi me exercitar e elaborar o mais MANUALMENTE possível, um detector para o ÂNGULO MAIS PREDOMINANTE em uma imagem com base nos principios do filtro sobel.
@@ -46,6 +47,7 @@ _____________________________________________________________________
 _____________________________________________________________________
 
 <img src="circle.jpg" alt="drawing"/>
+É muito interessante reparar como se comporta o gradiente na imagem processada abaixo. COnseguimos observar como o sobel nos retorna o angulo, com as cores do circulo mudando do preto ao branco indicando uma mudança de 0 a pi.
 <img src="filterCircle.png" alt="drawing"/>
 <img src="angleCircle.png" alt="drawing"/>
 
