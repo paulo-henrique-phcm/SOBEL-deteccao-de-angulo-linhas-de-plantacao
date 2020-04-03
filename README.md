@@ -29,3 +29,6 @@ plotando um histograma em forma polar e usando algebra básica obteos o seguinte
 <img src="angulo1.png" alt="drawing"/>
 
 # Outros exemplos:
+<img src="2.png" alt="drawing"/>
+
+<img src="2angle.png" alt="drawing"/>
