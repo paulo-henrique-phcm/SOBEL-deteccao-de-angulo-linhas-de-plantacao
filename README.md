@@ -45,7 +45,7 @@ _____________________________________________________________________
 
 _____________________________________________________________________
 
-<img src="imgCircle.jpg" alt="drawing"/>
+<img src="circle.jpg" alt="drawing"/>
 <img src="filterCircle.png" alt="drawing"/>
 <img src="angleCircle.png" alt="drawing"/>
 
