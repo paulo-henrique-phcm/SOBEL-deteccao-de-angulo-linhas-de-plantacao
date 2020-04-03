@@ -29,6 +29,8 @@ plotando um histograma em forma polar e usando algebra básica obteos o seguinte
 <img src="angulo1.png" alt="drawing"/>
 
 # Outros exemplos:
+<img src="img2.png" alt="drawing"/>
 <img src="2.png" alt="drawing"/>
-
 <img src="2angle.png" alt="drawing"/>
+
+Observamos que a partir da imagem original extraímos seus gradientes e processamos obtendo o mapa de inclinações, e atravém de um histograma em formato de transferidor, observamos claramente o angulo mais frequente em toda a imagem escrito logo a cima do histograma.
