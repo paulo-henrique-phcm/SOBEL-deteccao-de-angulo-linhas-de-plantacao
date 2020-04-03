@@ -16,7 +16,7 @@ Os filtros foram definidos manualmente para forçar-me a entender os conceitos b
 
 Usando scipy realizei a convolução da imagem cinza com os filtros, um por vez:
 
-<img src="1.png" alt="drawing"/>
+<img src="filter1.png" alt="drawing"/>
 
 A pŕimeira imagem é do filtro sobel horizontal e a segunda, do vertical, aplicados á imagem. A terceira imagem trata de, depois de multiplicar ambas pontualmente, processar a imagem resultante com o método arctan() que implementei.
 
@@ -26,21 +26,28 @@ Após vários teste percebi que calculando o angulo ponto a ponto estariamos cal
 
 Se analisarmos todos os píxels da matriz processada, onde temos as intensidades de angulos detectadas da imagem, podemos plotar um histograma em forma polar, limitado entre 0º e 180º, que nos dirá qual angulo aparece mais vezes na imagem intera:
 
-<img src="angulo1.png" alt="drawing"/>
+<img src="angle1.png" alt="drawing"/>
 
 Então nós podemos notar neste caso, que enchergamos linhas quase diagonais, e o algorítmo também conseguil identificar este padrão.
 # Outros exemplos:
 _____________________________________________________________________
 
 <img src="img2.png" alt="drawing"/>
-<img src="2.png" alt="drawing"/>
-<img src="2angle.png" alt="drawing"/>
+<img src="filter2.png" alt="drawing"/>
+<img src="angle2.png" alt="drawing"/>
 
 Observamos que a partir da imagem original extraímos seus gradientes e processamos obtendo o mapa de inclinações, e atravém de um histograma em formato de transferidor, observamos claramente o angulo mais frequente em toda a imagem escrito logo a cima do histograma.
 _____________________________________________________________________
 
 <img src="img3.jpg" alt="drawing"/>
-<img src="3.png" alt="drawing"/>
+<img src="filter3.png" alt="drawing"/>
 <img src="angle3.png" alt="drawing"/>
 
+_____________________________________________________________________
+
+<img src="imgCircle.jpg" alt="drawing"/>
+<img src="filterCircle.png" alt="drawing"/>
+<img src="angleCircle.png" alt="drawing"/>
+
+Neste circulo podemos observar que, existem alguns angulos e eles são mostrados, mas eles ocorrem poucas vezes, cerca de 400 vezes, este pode ser um parametro para considerarmos como limite para considerar como angulos fortes o suficiente.
 _____________________________________________________________________
