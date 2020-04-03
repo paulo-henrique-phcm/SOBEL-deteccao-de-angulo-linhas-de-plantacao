@@ -28,7 +28,7 @@ Se analisarmos todos os píxels da matriz processada, onde temos as intensidades
 
 <img src="angle1.png" alt="drawing"/>
 
-Então nós podemos notar neste caso, que enchergamos linhas quase diagonais, e o algorítmo também conseguil identificar este padrão.
+Então nós podemos notar neste caso, que enchergamos linhas quase diagonais, e o algorítmo também conseguil identificar este padrão, e que o angulo 65º aparece cerca de 7000 vezes.
 # Outros exemplos:
 _____________________________________________________________________
 
