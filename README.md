@@ -2,7 +2,7 @@ Meu primeiro detector de ângulos em imagens de drône de plantação usando con
 <img src="img3.jpg"/>
 _____________________________________________________________________
 # Detecção do angulo
-Ao invés de fazer logo de início um detector de linhas e angulos deferentes em uma unica imagem ou usar metodos ja existentes como a TRANSFORMADA DE HOUGH, resolvi me exercitar e elaborar o mais MANUALMENTE possível, um detector para o ÂNGULO MAIS PREDOMINANTE em uma imagem com base nos principios do filtro sobel.
+Ao invés de fazer logo de início um detector de linhas e angulos diferentes em uma unica imagem ou usar metodos ja existentes como a TRANSFORMADA DE HOUGH, resolvi me exercitar e elaborar o mais MANUALMENTE possível, um detector para o ÂNGULO MAIS PREDOMINANTE em uma imagem com base nos principios do filtro sobel.
 
 Na agricultura de precisão/digital análises como esta são cruciais para demarcar regiões e linhas para realização de outros procedimentos. Em geral a foto de um drone é extremamente grande, tornando inviável, dependendo do computador, um algorítmo que a analise por inteiro, principalmente se se tratar de uma rede neural (que pretendo implementar futuramente). Por tais motivos é interessante o desmembramento desta imagem em imagens menores, em pequenas regiões. partindo daí decidi elaborar este simples algoritmo.
 
