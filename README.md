@@ -19,7 +19,7 @@ Usando scipy realizei a convolução da imagem cinza com os filtros, um por vez:
 
 <img src="filter1.png" alt="drawing"/>
 
-A pŕimeira imagem é do filtro sobel horizontal e a segunda, do vertical, aplicados á imagem. A terceira imagem trata de, depois de multiplicar ambas pontualmente, processar a imagem resultante com o método arctan() que implementei.
+A pŕimeira imagem é do filtro sobel horizontal e a segunda, do vertical, aplicados á imagem. A terceira imagem trata das duas matrizes processadas ponto a ponto usando arctan(), depois de manipula-lo de forma que retire as imperfeições. O que isso significa? Bom, o arctan da razão das intensidades H e V nos retorna simplesmente valores entre pi/2 e -pi/2 ou seja, como podemos ver, a cor do pixel nos diz qual qual a inclinação aproximada de uma possivel linha da qual o pixel faz parte, quanto mais escuro mais proximo de -pi/ e assim por diante. Depois basta ajustar esse intervalo conforme desejado.
 
 # Processamento do gradiente
 Para calcular o angulo usamos pitágoras, onde sin/cos = tan. se a intensidade horizontal H e a vertical V representam sin e cos respectivamente, então podemos dizer que, naquele local, o angulo é repesentado por Θ = arctan(H/V), e como arctan em +∞ e -∞ tende á pi/2, então Θ = arctan(H/V)*2/pi.
