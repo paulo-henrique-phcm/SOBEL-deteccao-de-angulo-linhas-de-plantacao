@@ -1,5 +1,5 @@
 <h2>Um filho melhorado deste código -> <a href="https://github.com/paulo-henrique-phcm/processamento-fingerprint-deteccao-minucias">FingerPrint.</a>
-esta idéia e código deram início a uma nova idéia pessoal que esta sendo desenvolvida de uma olhada.</h2><br>
+esta idéia e código deram início a uma nova idéia pessoal que esta sendo desenvolvida, dê uma olhada.</h2><br>
 <h1>Meu primeiro detector de ângulos em imagens de drône de plantação usando conceito simples de filtros sobel</h1>
 <img src="img3.jpg"/>
 _____________________________________________________________________
